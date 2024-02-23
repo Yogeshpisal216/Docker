@@ -11,8 +11,9 @@ EXPOSE 8080
 WORKDIR /opt/apache-tomcat-8.5.99
 
 ADD https://s3-us-west-2.amazonaws.com/studentapi-cit/student.war webapps/student.war
-COPY student.war  webapps/
+COPY student.war  webapps/student.war
 CMD bin/catalina.sh
+
 
 FROM centos:7
 RUN yum install java-11-openjdk -y
