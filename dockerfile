@@ -12,7 +12,7 @@ WORKDIR /opt/apache-tomcat-8.5.99
 
 ADD https://s3-us-west-2.amazonaws.com/studentapi-cit/student.war webapps/student.war
 COPY student.war  webapps/student.war
-CMD bin/catalina.sh
+CMD bin/catalina.sh run
 
 
 FROM centos:7
