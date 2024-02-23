@@ -23,6 +23,6 @@ RUN tar -xzf apache-tomcat-8.5.98.tar.gz -C /opt/ && \
 WORKDIR /opt/apache-tomcat-8.5.98
 COPY context.xml conf/context.xml
 ADD https://s3-us-west-2.amazonaws.com/studentapi-cit/mysql-connector.jar lib/mysql-connector.jar
-COPY  webapps/student.war
+COPY  mysql-connector.jar webapps/mysql-connector.jar
 EXPOSE 8080
 CMD ["./bin/catalina.sh", "run"]
