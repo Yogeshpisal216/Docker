@@ -10,4 +10,4 @@ EXPOSE 8080
 
 WORKDIR /opt/apache-tomcat-8.5.99
 
-ADD https://s3-us-west-2.amazonaws.com/studentapi-cit/student/ dest
+ADD https://s3-us-west-2.amazonaws.com/studentapi-cit/student/ webapps
