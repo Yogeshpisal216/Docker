@@ -7,4 +7,4 @@ RUN echo "Welcome to httpd page" > /var/www/html/index.html
 
 EXPOSE 80
 
-CMD httpd -DFORGROUND
+CMD httpd -DFOREGROUND
