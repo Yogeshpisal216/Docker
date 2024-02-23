@@ -8,4 +8,4 @@ RUN tar -xvf /opt/apache-tomcat-8.5.99.tar.gz -c /opt
 
 EXPOSE 8080
 
-WORKDIR /op
+WORKDIR /opt/ap
