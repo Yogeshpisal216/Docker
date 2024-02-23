@@ -10,4 +10,4 @@ EXPOSE 8080
 
 WORKDIR /opt/apache-tomcat-8.5.99
 
-A
+ADD source dest
