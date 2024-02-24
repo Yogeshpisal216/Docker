@@ -2,4 +2,4 @@ FROM centos:7
 
 LABEL Developer="Yogi"
 
-RUN yum install 
+RUN yum install go -y
