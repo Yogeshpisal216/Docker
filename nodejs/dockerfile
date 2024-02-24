@@ -8,7 +8,7 @@ RUN apt install npm -y
 RUN npm install react-scripts@3.4.1 -g
 
 RUN git clone https://github.com/Yogeshpisal216/Docker.git  
-WORKDIR /devops-fullstack-app/frontend
+WORKDIR /Doker/frontend
 
 EXPOSE 3000
 
