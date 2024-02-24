@@ -4,7 +4,7 @@ LABEL Developer="Yogi"
 
 RUN apt update -y 
 RUN apt install npm -y
-RUN npm install reactjs -y
+#RUN npm install reactjs -y
 
 RUN git clone https://github.com/shubhamkalsait/devops-fullstack-app.git  /opt
 WORKDIR /opt/devops-fullstack-app/frontend
