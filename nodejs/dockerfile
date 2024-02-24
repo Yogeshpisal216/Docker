@@ -12,5 +12,4 @@ WORKDIR /devops-fullstack-app/frontend
 
 EXPOSE 3000
 
-ENTRYPOINT [ "nodejs" ]
 CMD ["npm" , "start"] 
