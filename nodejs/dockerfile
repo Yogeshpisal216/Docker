@@ -7,7 +7,7 @@ RUN apt install  npm -y
 RUN  npm install reactjs
 
 RUN git clone https://github.com/shubhamkalsait/devops-fullstack-app.git 
-WORKDIR /frontend
+WORKDIR /devops-fullstack-app/frontend
 
 CMD npm start
 
