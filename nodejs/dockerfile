@@ -3,7 +3,7 @@ FROM centos:7
 LABEL Developer="Yogi"
 
 RUN yum update -y 
-RUN yum ins0tall npm -y
+RUN yum install -y npm
 
 EXPOSE 3000
 
