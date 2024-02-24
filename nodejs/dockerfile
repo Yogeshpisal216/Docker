@@ -5,4 +5,4 @@ LABEL Developer="Yogi"
 RUN yum install go -y
 RUN yum install npm -y
 
-
+EXPOSE 3000
