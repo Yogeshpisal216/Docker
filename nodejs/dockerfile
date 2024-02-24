@@ -5,7 +5,7 @@ LABEL Developer="Yogi"
 RUN apt update -y 
 RUN apt install -y npm
 
-ADD source dest
+
 
 EXPOSE 3000
 
