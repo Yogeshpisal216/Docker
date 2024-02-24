@@ -13,6 +13,3 @@ WORKDIR /devops-fullstack-app/frontend
 EXPOSE 3000
 
 CMD npm start -DFORGROUND
-
-
-
