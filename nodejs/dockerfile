@@ -4,7 +4,7 @@ LABEL Developer="Yogi"
 
 RUN yum update -y 
 RUN yum install npm -y
-RUN yum install git -y
+RUN  install git -y
 
 RUN npm install react-scripts@3.4.1 -g
 
