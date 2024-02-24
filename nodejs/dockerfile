@@ -2,4 +2,4 @@ FROM centos:7
 
 LABEL Developer="Yogi"
 
-Runt
+RUN command
