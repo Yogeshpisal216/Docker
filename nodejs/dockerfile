@@ -8,5 +8,7 @@ RUN apt install -y npm
 RUN git clone https://github.com/shubhamkalsait/devops-fullstack-app.git /opt
 WORKDIR /opt/frontend
 
+CMD [ "executable" ]
+
 EXPOSE 3000
 
