@@ -12,5 +12,5 @@ WORKDIR /devops-fullstack-app/frontend
 
 EXPOSE 3000
 
-CMD [ "nodejs" ]
+CMD 
 CMD ["npm" , "start"] 
