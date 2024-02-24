@@ -1,4 +1,4 @@
-FROM ubun
+FROM ubuntu:22.04
 
 LABEL Developer="Yogi"
 
