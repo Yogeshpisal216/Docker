@@ -11,7 +11,6 @@ RUN git clone https://github.com/shubhamkalsait/devops-fullstack-app.git
 WORKDIR /devops-fullstack-app/frontend/
 
 #RUN npm install react-scripts@3.4.1 -g
-RUN npm install
 RUN npm fund
 
 EXPOSE 3000
