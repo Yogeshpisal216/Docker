@@ -3,7 +3,7 @@ FROM ubuntu:22.04
 LABEL author="Yogi"
 
 RUN apt update 
-RUN apt install apache2 -y
+RUN apt install httpd-y
 
 COPY index.html /var/www/html/index.html
 RUN chmod -R 755 /var/www
