@@ -1,11 +1,12 @@
 #In Root To Do This Steps-->
 
 
-#1)this is for creating database
+#1)this is for creating database.
      docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql:latest
-#2)check process
+#2)check process.
     docker ps
 #3)go inside the mysql for creation of database.
     docker exec -it 9c4 mysql -u root -p
-4) docker inspect 9c40
+4)
+     docker inspect 9c40
 5) 
