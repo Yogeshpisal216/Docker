@@ -4,6 +4,6 @@ LABEL Database_name="Docker"
 LABEL Database_pass="123456"
 
 RUN yum update all
-apt install openjdk-8-jre-headless 
+RUN commandapt install openjdk-8-jre-headless 
 
 
