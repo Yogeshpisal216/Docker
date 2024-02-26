@@ -4,7 +4,7 @@ LABEL Database_name="Docker"
 LABEL Database_pass="123456"
 
 RUN apt update 
-RUN apt install openjdk-8-jre-headless 
-apt install mysql-client-core-8.0 
+RUN apt install openjdk-8-jre-headless -y
+apt install mysql-client-core-8.0 -y
 
 
