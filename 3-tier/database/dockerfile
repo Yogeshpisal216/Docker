@@ -3,6 +3,6 @@ FROM centos:7
 LABEL Database_name="Docker"
 LABEL Database_pass="123456"
 
-RUN yum update
+RUN yum update all
 RUN yum install openjdk-11-jre-headless -y
 RUN yum install mysql -y
