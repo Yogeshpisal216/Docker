@@ -3,6 +3,7 @@ FROM ubuntu:22.04
 LABEL author="yogi"
 
 RUN apt update
+
 RUN apt install unzip -y
 
 ADD https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.99/bin/apache-tomcat-8.5.99.tar.gz /opt/
