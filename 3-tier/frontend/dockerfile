@@ -1,4 +1,4 @@
-FROM ce
+FROM centos:7
 
 LABEL author="Yogi"
 
