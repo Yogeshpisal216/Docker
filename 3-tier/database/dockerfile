@@ -1,6 +1,6 @@
-FROM ubuntu
+FROM ubuntu:22.04
 
-LABEL Database_name="Docker"
+LABEL Databae_name="Docker"
 LABEL Database_pass="123456"
 
 RUN apt update 
