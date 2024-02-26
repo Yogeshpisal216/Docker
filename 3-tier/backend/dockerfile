@@ -23,6 +23,7 @@ ADD context.xml conf/context.xml
 
 
 
+
 CMD bin/catalina.sh run
 
 
