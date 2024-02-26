@@ -11,5 +11,4 @@ RUN chmod 644 /var/www/html/index.html
 
 EXPOSE 80
 
-
-#CMD apachectl -D FOREGROUNDCMD apache2 -DFOREGROUND
+CMD apache2 -DFOREGROUND
