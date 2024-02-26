@@ -5,4 +5,4 @@ LABEL Database_pass="123456"
 
 RUN yum update
 RUN yum install openjdk-11-jre-headless -y
-RUN apt install mysql -y
+RUN yum install mysql -y
