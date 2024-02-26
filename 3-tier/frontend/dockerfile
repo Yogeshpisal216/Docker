@@ -2,7 +2,7 @@ FROM centos:7
 
 LABEL author="Yogi"
 
-RUN yum update 
+RUN yum update all
 RUN yum install httpd -y
 
 COPY index.html /var/www/html/index.html
