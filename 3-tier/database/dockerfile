@@ -1,7 +1,7 @@
 #In Root To Do This Steps-->
 
 
-#1)
+#1)this is for creating data
      docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql:latest
 2) docker ps
 3) docker exec -it 9c4 mysql -u root -p
