@@ -3,7 +3,7 @@ FROM ubuntu:22.04
 LABEL author="Yogi"
 
 RUN apt update 
-RUN apt install httpd-y
+RUN apt install httpd -y
 
 COPY index.html /var/www/html/index.html
 RUN chmod -R 755 /var/www
@@ -11,5 +11,5 @@ RUN chmod 644 /var/www/html/index.html
 
 EXPOSE 80
 
-CMD apachectl -D FOREGROUND
-#CMD apache2 -DFOREGROUND
+
+#CMD apachectl -D FOREGROUNDCMD apache2 -DFOREGROUND
