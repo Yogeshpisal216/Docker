@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM centos:
 
 LABEL Database_name="Docker"
 LABEL Database_pass="123456"
