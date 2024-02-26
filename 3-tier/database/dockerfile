@@ -7,6 +7,6 @@
     docker ps
 #3)go inside the mysql for creation of database.
     docker exec -it 9c4 mysql -u root -p
-#4)
-     docker inspect 9c40
-5) 
+#4)check the ip of database.
+ #    docker inspect 9c40
+ 
