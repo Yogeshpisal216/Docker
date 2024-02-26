@@ -1,4 +1,4 @@
 #In Root To Do This Steps-->
 
 1) docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=123456 mysql:latest
-2) 
+2) docker ps
