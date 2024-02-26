@@ -4,5 +4,5 @@ LABEL Database_name="Docker"
 LABEL Database_pass="123456"
 
 RUN apt update
-RUN apt install java-11-openjdk -y
+RUN apt install openjdk-11-jre-headless -y
 RUN apt install mysql -y
