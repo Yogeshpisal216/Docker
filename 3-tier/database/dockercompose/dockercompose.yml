@@ -3,4 +3,4 @@ services :
   myapp :
     image : nginx
     port :
-    
+      - "8080:80"
