@@ -2,5 +2,5 @@ version   : '3'
 services  : 
   myapp   :
     image : nginx
-    ports  :
+    ports :
       - "8080:80"
