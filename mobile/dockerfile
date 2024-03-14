@@ -4,7 +4,7 @@ LABEL author="YOGI"
 
 RUN yum install httpd -y 
 RUN mkdir /var/www/html/mobile
-RUN index.html /var/www/html/mobile/index.html
+COPY index.html /var/www/html/mobile/index.html
 
 EXPOSE 80
 
